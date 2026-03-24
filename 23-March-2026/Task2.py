@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from time import sleep
 
 
-opts=ChromiumOptions()
+opts=webdriver.ChromeOptions()
 opts.add_experimental_option('detach',True)
 driver=webdriver.Chrome(options=opts)
 driver.get('https://www.myntra.com/')

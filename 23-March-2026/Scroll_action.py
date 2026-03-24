@@ -8,7 +8,7 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
 
-opts=ChromiumOptions()
+opts=webdriver.ChromeOptions()
 opts.add_experimental_option('detach',True)
 driver=webdriver.Chrome(options=opts)
 driver.get('https://www.supertails.com/')
@@ -20,7 +20,7 @@ action=ActionChains(driver)
 action.scroll_to_element(cat).perform()
 sleep(3)
 
-#scroll_to - scroll to the exact pixel location, if u wanna scrol up give negative values , if u wanna scroll down u give positive value
+#scroll_to - scroll to the exact pixel location, if u wanna scroll up give negative values , if u wanna scroll down u give positive value
 # scroll_by - scrolls to that many pixel by a particular location
 #top of the page is 0,0
 action.scroll_by_amount(0,-100).perform()

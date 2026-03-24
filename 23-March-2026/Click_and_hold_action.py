@@ -8,7 +8,7 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
 
-opts=ChromiumOptions()
+opts=webdriver.ChromeOptions()
 opts.add_experimental_option('detach',True)
 driver=webdriver.Chrome(options=opts)
 driver.get(r'D:\Selenium\23-March-2026\index1.html')

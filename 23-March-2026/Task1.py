@@ -10,7 +10,7 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 
 
-opts=ChromiumOptions()
+opts=webdriver.ChromeOptions()
 opts.add_experimental_option('detach',True)
 driver=webdriver.Chrome(options=opts)
 driver.get('https://www.royalchallengers.com/')

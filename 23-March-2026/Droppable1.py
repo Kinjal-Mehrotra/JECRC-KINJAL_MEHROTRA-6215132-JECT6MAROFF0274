@@ -6,9 +6,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from time import sleep
 
-opts=ChromiumOptions()
+
+opts=webdriver.ChromeOptions()
 opts.add_experimental_option('detach',True)
-driver=webdriver.Chrome()
+driver=webdriver.Chrome(options=opts)
 driver.get('https://demoqa.com/droppable')
 driver.maximize_window()
 sleep(3)

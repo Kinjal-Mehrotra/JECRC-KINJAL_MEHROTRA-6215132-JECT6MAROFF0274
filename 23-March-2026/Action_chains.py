@@ -6,9 +6,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 
-opts=ChromiumOptions()
+opts=webdriver.ChromeOptions()
 opts.add_experimental_option('detach',True)
-driver=webdriver.Chrome()
+driver=webdriver.Chrome(options=opts)
 driver.get('https://the-internet.herokuapp.com/drag_and_drop')
 driver.maximize_window()
 sleep(3)
