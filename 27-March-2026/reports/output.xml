@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.0 on win32)" generated="2026-03-27T15:53:14.718577" rpa="false" schemaversion="5">
+<suite id="s1" name="Actions" source="D:\Selenium\27-March-2026\actions.robot">
+<test id="s1-t1" name="Scroll to the Element" line="32">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:53:15.315767" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-27T15:53:15.315767" elapsed="3.873554"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-27T15:53:19.189321" elapsed="4.241631"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:53:24.432213" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:53:23.430952" elapsed="1.001261"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:53:24.622782" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-03-27T15:53:24.622782" level="FAIL">Element with locator '//a[text()="Typose"]' not found.</msg>
+<arg>//a[text()="Typose"]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="FAIL" start="2026-03-27T15:53:24.432213" elapsed="0.274059">Element with locator '//a[text()="Typose"]' not found.</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-27T15:53:24.706272" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-03-27T15:53:15.299091" elapsed="9.415183">Element with locator '//a[text()="Typose"]' not found.</status>
+</test>
+<doc>Action Chains</doc>
+<status status="FAIL" start="2026-03-27T15:53:14.718577" elapsed="9.995697"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Actions" id="s1" pass="0" fail="1" skip="0">Actions</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

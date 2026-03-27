@@ -1,0 +1,14 @@
+1774602889592	geckodriver	INFO	Listening on 127.0.0.1:56518
+1774602892757	mozrunner::runner	INFO	Running command: "C:\\Users\\hp\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 6519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileJvmR6W"
+Dynamically enable window occlusion 0
+1774602894669	Marionette	INFO	Marionette enabled
+1774602894970	Marionette	INFO	Listening on port 56533
+WebDriver BiDi listening on ws://127.0.0.1:56519
+Read port: 56533
+1774602895386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 3992
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774602910684	Marionette	INFO	Stopped listening on port 56533
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,16 @@
+1774602185479	geckodriver	INFO	Listening on 127.0.0.1:55364
+1774602188526	mozrunner::runner	INFO	Running command: "C:\\Users\\hp\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 5365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileFu59DX"
+Dynamically enable window occlusion 0
+1774602189748	Marionette	INFO	Marionette enabled
+1774602189956	Marionette	INFO	Listening on port 55385
+WebDriver BiDi listening on ws://127.0.0.1:55365
+Read port: 55385
+1774602190273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2380
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774602205146	Marionette	INFO	Stopped listening on port 55385
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+JavaScript error: resource:///actors/LinkHandlerParent.sys.mjs, line 34: InvalidStateError: CanvasRenderingContext2D.drawImage: Passed-in video frame is "broken"
+JavaScript error: resource:///actors/LinkHandlerParent.sys.mjs, line 34: InvalidStateError: CanvasRenderingContext2D.drawImage: Passed-in video frame is "broken"
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

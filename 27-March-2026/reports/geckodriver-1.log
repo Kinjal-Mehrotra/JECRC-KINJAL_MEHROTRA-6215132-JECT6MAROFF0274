@@ -1,0 +1,27 @@
+1774596393246	geckodriver	INFO	Listening on 127.0.0.1:50990
+1774596396344	mozrunner::runner	INFO	Running command: "C:\\Users\\hp\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 0991" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileG9B4Sc"
+Dynamically enable window occlusion 0
+1774596397535	Marionette	INFO	Marionette enabled
+1774596397737	Marionette	INFO	Listening on port 50998
+WebDriver BiDi listening on ws://127.0.0.1:50991
+Read port: 50998
+1774596398030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774596408979	Marionette	INFO	Stopped listening on port 50998
+Dynamically enable window occlusion 1
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js, line 19: Script terminated by timeout at:
+vm@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:78887
+Hm@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:80437
+Im@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:81101
+_.Km@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:83651
+ev@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:134739
+Sea<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:523002
+kV.prototype.K@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:330001
+eV.prototype.start/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:329087
+wD@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:195412
+yD/this.next@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:195706
+b@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603190101/pubads_impl.js:19:195958
+
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0), 587))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: (new Error("Unable to arm timer, the object has been finalized.", "resource://gre/modules/DeferredTask.sys.mjs", 231))
