@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.0 on win32)" generated="2026-03-28T11:09:17.736399" rpa="false" schemaversion="5">
+<suite id="s1" name="Task1" source="D:\Selenium\28-March-2026\Task1.robot">
+<test id="s1-t1" name="Handle dropdown on testautomation" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:09:18.530729" level="INFO">Opening browser 'edge' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${colors_url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-28T11:09:18.530729" elapsed="21.295219"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-28T11:09:39.825948" elapsed="0.065083"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>id=colors</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-03-28T11:09:39.891031" elapsed="0.349222"/>
+</kw>
+<kw name="Page Should Contain List" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:09:40.268254" level="INFO">Current page contains list 'id=colors'.</msg>
+<arg>id=colors</arg>
+<doc>Verifies selection list ``locator`` is found from current page.</doc>
+<status status="PASS" start="2026-03-28T11:09:40.241255" elapsed="0.026999"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:09:40.269255" level="INFO">Selecting options from selection list 'id=colors' by value white.</msg>
+<arg>id=colors</arg>
+<arg>white</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-03-28T11:09:40.269255" elapsed="0.146005"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:09:40.417261" level="INFO">Selecting options from selection list 'id=colors' by value blue.</msg>
+<arg>id=colors</arg>
+<arg>blue</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-03-28T11:09:40.416258" elapsed="0.166005"/>
+</kw>
+<kw name="Get Selected List Values" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:09:40.904075" level="INFO">@{selected_options} = [ blue | white ]</msg>
+<var>@{selected_options}</var>
+<arg>id=colors</arg>
+<doc>Returns values of selected options from selection list ``locator``.</doc>
+<status status="PASS" start="2026-03-28T11:09:40.583257" elapsed="0.320818"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${selected_options}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-28T11:09:40.905069" elapsed="0.001997"/>
+</kw>
+<kw name="List Selection Should Be" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:09:40.911015" level="INFO">Verifying list 'id=colors' has options [ White | Blue ] selected.</msg>
+<msg time="2026-03-28T11:09:40.944366" level="INFO">Current page contains list 'id=colors'.</msg>
+<arg>id=colors</arg>
+<arg>White</arg>
+<arg>Blue</arg>
+<doc>Verifies selection list ``locator`` has ``expected`` options selected.</doc>
+<status status="PASS" start="2026-03-28T11:09:40.911015" elapsed="0.265866"/>
+</kw>
+<doc>handling colors dropdown</doc>
+<status status="PASS" start="2026-03-28T11:09:18.530729" elapsed="22.646152"/>
+</test>
+<status status="PASS" start="2026-03-28T11:09:17.741378" elapsed="23.435503"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Task1" id="s1" pass="1" fail="0" skip="0">Task1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

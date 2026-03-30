@@ -1,0 +1,51 @@
+1774683609172	geckodriver	INFO	Listening on 127.0.0.1:62755
+1774683612422	mozrunner::runner	INFO	Running command: "C:\\Users\\hp\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 2756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileGEHPYS"
+Dynamically enable window occlusion 0
+1774683613890	Marionette	INFO	Marionette enabled
+1774683614113	Marionette	INFO	Listening on port 62768
+WebDriver BiDi listening on ws://127.0.0.1:62756
+Read port: 62768
+1774683614445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2038
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 155 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript warning: https://gumi.criteo.com/syncframe?topUrl=in.bookmyshow.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22bookmyshow.com%22,%22topUrl%22:%22in.bookmyshow.com%22,%22version%22:%225_45_0%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0,%22requestId%22:%22b34bdfdc-2e4b-477c-98e7-db13191956f7%22}, line 13: Script terminated by timeout at:
+u.prototype.flushEventQueue@https://gumi.criteo.com/syncframe?topUrl=in.bookmyshow.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22bookmyshow.com%22,%22topUrl%22:%22in.bookmyshow.com%22,%22version%22:%225_45_0%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0,%22requestId%22:%22b34bdfdc-2e4b-477c-98e7-db13191956f7%22}:13:3137
+u/<@https://gumi.criteo.com/syncframe?topUrl=in.bookmyshow.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22bookmyshow.com%22,%22topUrl%22:%22in.bookmyshow.com%22,%22version%22:%225_45_0%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0,%22requestId%22:%22b34bdfdc-2e4b-477c-98e7-db13191956f7%22}:13:3642
+
+JavaScript warning: https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js, line 1: Script terminated by timeout at:
+ld@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:328284
+sd@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:328253
+5413/Ad/</<@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:342086
+addUpdate@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:351955
+5413/Ad/<@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:342016
+uu@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:308478
+styleSheetRuleCb@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:313454
+5413/Qc/r.CSSStyleSheet.prototype.insertRule<.apply<@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:293305
+5413/Uc/<@https://web-assets-in.bmscdn.com/chunks/js/vendor-secondary.e5db258c.js:1:286224
+38743/e.prototype.insertRule@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:235570
+38743/e.prototype.insertRules@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:233559
+38743/e.prototype.insertRules@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:238123
+38743/e.prototype.createStyles@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:246771
+38743/e.prototype.renderStyles@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:246974
+c@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:247621
+38743/et/l/<@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:247389
+nu@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:189129
+bu@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:196350
+vu@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:196206
+gu@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:195750
+22551/Sl/<@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:207418
+Sl@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:207920
+sl@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:201738
+Bo@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:142853
+22551/nl/<@https://web-assets-in.bmscdn.com/chunks/js/vendor-primary.7ef97d4e.js:1:199161
+
+1774683698071	Marionette	INFO	Stopped listening on port 62768
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
