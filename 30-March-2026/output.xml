@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.0 on win32)" generated="2026-03-30T16:23:35.448942" rpa="false" schemaversion="5">
+<suite id="s1" name="Task3" source="D:\Selenium\30-March-2026\Task3.robot">
+<test id="s1-t1" name="Amazon automation testing" line="20">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:35.956838" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.in/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-30T16:23:35.956838" elapsed="1.790994"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-30T16:23:37.747832" elapsed="1.499014"/>
+</kw>
+<kw name="Wait Until Location Is" owner="SeleniumLibrary">
+<arg>https://www.amazon.in/</arg>
+<doc>Waits until the current URL is ``expected``.</doc>
+<status status="PASS" start="2026-03-30T16:23:39.247858" elapsed="0.010412"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//a[text()=" Electronics "]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-03-30T16:23:39.259267" elapsed="4.728823"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:43.989087" level="INFO">Clicking element 'xpath=//a[text()=" Electronics "]'.</msg>
+<arg>xpath=//a[text()=" Electronics "]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:43.988090" elapsed="2.964890"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>xpath=//input[@aria-labelledby="boAt"]/following-sibling::i</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-03-30T16:23:46.952980" elapsed="0.066535"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:47.020513" level="INFO">Clicking element 'xpath=//input[@aria-labelledby="boAt"]/following-sibling::i'.</msg>
+<arg>xpath=//input[@aria-labelledby="boAt"]/following-sibling::i</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:47.020513" elapsed="3.192468"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:50.436236" level="INFO">${product_name} = Xiaomi Power Bank 4i 20000mAh 33W Super Fast Charging PD |Smart 12 Layer Protection|Type C Input &amp; Output|Triple Output Ports|Supports Android,Apple, Tablets, Earbuds,Watch(MI Powerbank),Black</msg>
+<var>${product_name}</var>
+<arg>xpath=(//div[@role="listitem"])[3]/descendant::div[@data-cy="title-recipe"]/descendant::h2/span</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:50.213986" elapsed="0.222250"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:50.443889" level="INFO">Clicking element '(//div[@role="listitem"])[3]/descendant::div[@data-cy="title-recipe"]/a'.</msg>
+<arg>(//div[@role="listitem"])[3]/descendant::div[@data-cy="title-recipe"]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:50.436236" elapsed="0.407853"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>NEW</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:50.844089" elapsed="0.033124"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:23:55.878217" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:23:50.877213" elapsed="5.001004"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:56.183564" level="INFO">Current page contains text 'Xiaomi Power Bank 4i 20000mAh 33W Super Fast Charging PD |Smart 12 Layer Protection|Type C Input &amp; Output|Triple Output Ports|Supports Android,Apple, Tablets, Earbuds,Watch(MI Powerbank),Black'.</msg>
+<arg>${product_name}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-03-30T16:23:55.898679" elapsed="0.285886"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:56.292430" level="INFO">${actual_price} = ₹3,999</msg>
+<var>${actual_price}</var>
+<arg>xpath=(//div[@class="a-section a-spacing-small aok-align-center"]/descendant::span[@aria-hidden="true"])[2]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:56.199563" elapsed="0.092867"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:56.326072" level="INFO">${discount} = -45%</msg>
+<var>${discount}</var>
+<arg>xpath=//span[@class="apex-savings-container"]/span</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:56.292430" elapsed="0.033642"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:56.395414" level="INFO">${discounted_price} = 2,199</msg>
+<var>${discounted_price}</var>
+<arg>xpath=(//span[@aria-hidden="true"]/descendant::span[@class="a-price-whole"])[6]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:56.326072" elapsed="0.069342"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${actual_price} ${discount} ${discounted_price}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T16:23:56.396412" elapsed="0.000000"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>id=add-to-cart-button</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-03-30T16:23:56.397412" elapsed="0.393225"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:23:56.792334" level="INFO">Clicking button 'id=add-to-cart-button'.</msg>
+<arg>id=add-to-cart-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:23:56.791637" elapsed="2.190793"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:24:00.984959" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:23:58.984433" elapsed="2.000526"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>id=nav-cart</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-03-30T16:24:00.984959" elapsed="0.323119"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:24:01.309064" level="INFO">Clicking element 'id=nav-cart'.</msg>
+<arg>id=nav-cart</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:24:01.309064" elapsed="1.759593"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:24:06.068943" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:24:03.068657" elapsed="3.000286"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:24:06.100214" level="INFO">Current page contains text 'Xiaomi Power Bank 4i 20000mAh 33W Super Fast Charging PD |Smart 12 Layer Protection|Type C Input &amp; Output|Triple Output Ports|Supports Android,Apple, Tablets, Earbuds,Watch(MI Powerbank),Black'.</msg>
+<arg>${product_name}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-03-30T16:24:06.068943" elapsed="0.031271"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:24:09.100816" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:24:06.100214" elapsed="3.000602"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T16:24:09.100816" elapsed="2.492088"/>
+</kw>
+<status status="PASS" start="2026-03-30T16:23:35.956838" elapsed="35.636066"/>
+</test>
+<status status="PASS" start="2026-03-30T16:23:35.464575" elapsed="36.128329"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Task3" id="s1" pass="1" fail="0" skip="0">Task3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
