@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.0 on win32)" generated="2026-04-02T10:50:18.471133" rpa="false" schemaversion="5">
+<suite id="s1" name="Log" source="D:\Selenium\02-April-2026\log.robot">
+<test id="s1-t1" name="Handling log levels" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-02T10:50:19.087571" level="INFO">Opening browser 'headlesschrome' to base url 'https://www.cricbuzz.com/'.</msg>
+<arg>${url}</arg>
+<arg>headlesschrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-02T10:50:19.087571" elapsed="2.230210"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-02T10:50:21.318675" level="INFO">Navigated to cricbuzz</msg>
+<arg>Navigated to cricbuzz</arg>
+<arg>INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-02T10:50:21.318675" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Navigated to cricbuzz</arg>
+<arg>DEBUG</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-02T10:50:21.323987" elapsed="0.008011"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-02T10:50:21.331998" level="WARN">Navigated to cricbuzz</msg>
+<arg>Navigated to cricbuzz</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-02T10:50:21.331998" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-02T10:50:21.331998" level="ERROR">Navigated to cricbuzz</msg>
+<arg>Navigated to cricbuzz</arg>
+<arg>ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-02T10:50:21.331998" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-04-02T10:50:19.087571" elapsed="2.244427"/>
+</test>
+<status status="PASS" start="2026-04-02T10:50:18.471133" elapsed="2.871154"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Log" id="s1" pass="1" fail="0" skip="0">Log</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-02T10:50:21.331998" level="WARN">Navigated to cricbuzz</msg>
+<msg time="2026-04-02T10:50:21.331998" level="ERROR">Navigated to cricbuzz</msg>
+</errors>
+</robot>

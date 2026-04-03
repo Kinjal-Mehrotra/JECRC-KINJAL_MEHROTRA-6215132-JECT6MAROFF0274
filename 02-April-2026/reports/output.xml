@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.0 on win32)" generated="2026-04-02T11:13:17.470429" rpa="false" schemaversion="5">
+<suite id="s1" name="Arg" source="D:\Selenium\02-April-2026\arg.robot">
+<test id="s1-t1" name="Login Default arguments" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-02T11:13:18.079478" level="INFO">Opening browser 'chrome' to base url 'https://sauce-demo.myshopify.com/account/login'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-02T11:13:18.079478" elapsed="7.538495"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-02T11:13:27.618020" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-02T11:13:25.617973" elapsed="2.000047"/>
+</kw>
+<kw name="Login Success">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-02T11:13:27.618020" level="INFO">Typing text 'cheeseburger@gmail.com' into text field 'id=customer_email'.</msg>
+<arg>id=customer_email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-02T11:13:27.618020" elapsed="0.330708"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-02T11:13:27.948728" level="INFO">Typing text '12345' into text field 'id=customer_password'.</msg>
+<arg>id=customer_password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-02T11:13:27.948728" elapsed="0.210175"/>
+</kw>
+<arg>cheeseburger@gmail.com</arg>
+<status status="PASS" start="2026-04-02T11:13:27.618020" elapsed="0.540883"/>
+</kw>
+<status status="PASS" start="2026-04-02T11:13:18.079478" elapsed="10.079425"/>
+</test>
+<status status="PASS" start="2026-04-02T11:13:17.470429" elapsed="10.688474"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Arg" id="s1" pass="1" fail="0" skip="0">Arg</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

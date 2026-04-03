@@ -1,0 +1,11 @@
+1. requirements.txt - stores all the dependencies
+2. venv
+3. tests - write test scripts
+4. resources - folder contains all the reusable components/commands, these resources are supposed to be imported
+resource <file_path>
+    4.1 pages - POM
+5. Locators
+will be stored under variables
+6. Reports
+7. .gitignore - venv/ reports/ cache files
+8. config file
